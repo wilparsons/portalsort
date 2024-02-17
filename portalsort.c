@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "entro-tidy.h"
+#include "portalsort.h"
 
-void entro_tidy(unsigned long count, int *input, int *auxiliary) {
+void portalsort(unsigned long count, int *input, int *auxiliary) {
   int copied_input;
   unsigned long even_segment_count;
   unsigned long remainder_segment_count;
